@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.pnpm-store/
+.DS_Store
+.env
+
+data/*.json
+data/*.db
+!data/.gitkeep
+reports/daily/*.md
+reports/weekly/*.md
+!reports/.gitkeep
+reports/health/*.md
+reports/health/*.json
+!reports/health/.gitkeep

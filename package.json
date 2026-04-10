@@ -1,0 +1,19 @@
+{
+  "name": "ai-news",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Frontend / AI engineering daily and weekly report generator MVP",
+  "scripts": {
+    "dev": "tsc -p tsconfig.json && node dist/main.js daily",
+    "build": "tsc -p tsconfig.json",
+    "daily": "pnpm build && node dist/main.js daily",
+    "weekly": "pnpm build && node dist/main.js weekly",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "health": "pnpm build && node dist/main.js health",
+    "test": "node --test dist/tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

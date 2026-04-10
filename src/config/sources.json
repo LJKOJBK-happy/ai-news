@@ -1,0 +1,17 @@
+[
+  { "id": "webdev", "name": "web.dev", "category": "frontend", "cadence": "daily", "weight": 0.95, "fetch": "rss", "url": "https://web.dev/feed.xml", "enabled": true },
+  { "id": "chrome-dev-blog", "name": "Chrome for Developers Blog", "category": "frontend", "cadence": "daily", "weight": 0.92, "fetch": "rss", "url": "https://developer.chrome.com/blog/rss.xml", "enabled": true },
+  { "id": "webkit-blog", "name": "WebKit Blog", "category": "frontend", "cadence": "weekly", "weight": 0.9, "fetch": "rss", "url": "https://webkit.org/feed/", "enabled": true },
+  { "id": "anthropic-engineering", "name": "Anthropic Engineering", "category": "ai-engineering", "cadence": "weekly", "weight": 0.89, "fetch": "rss", "url": "https://www.anthropic.com/engineering/rss.xml", "enabled": true, "notes": "RSS occasionally unstable; pipeline degrades gracefully" },
+
+  { "id": "frontend-focus", "name": "Frontend Focus", "category": "frontend", "cadence": "weekly", "weight": 0.8, "fetch": "rss", "url": "https://frontendfoc.us/rss", "enabled": true },
+  { "id": "javascript-weekly", "name": "JavaScript Weekly", "category": "frontend", "cadence": "weekly", "weight": 0.82, "fetch": "rss", "url": "https://javascriptweekly.com/rss/", "enabled": true },
+  { "id": "react-status", "name": "React Status", "category": "frontend", "cadence": "weekly", "weight": 0.78, "fetch": "rss", "url": "https://react.statuscode.com/rss/", "enabled": true },
+  { "id": "bytes", "name": "Bytes", "category": "frontend", "cadence": "weekly", "weight": 0.75, "fetch": "rss", "url": "https://bytes.dev/archives/rss.xml", "enabled": true, "notes": "Fallback to HTML parser can be enabled if RSS format shifts" },
+  { "id": "hf-blog", "name": "Hugging Face Blog", "category": "ai-engineering", "cadence": "daily", "weight": 0.86, "fetch": "rss", "url": "https://huggingface.co/blog/feed.xml", "enabled": true },
+  { "id": "simon-willison", "name": "Simon Willison", "category": "ai-engineering", "cadence": "daily", "weight": 0.84, "fetch": "rss", "url": "https://simonwillison.net/atom/everything/", "enabled": true },
+  { "id": "github-blog-ai-ml", "name": "GitHub Blog AI & ML", "category": "ai-engineering", "cadence": "weekly", "weight": 0.9, "fetch": "rss", "url": "https://github.blog/ai-and-ml/feed/", "enabled": true },
+
+  { "id": "openai-api-changelog", "name": "OpenAI API Changelog", "category": "ai-engineering", "cadence": "daily", "weight": 0.97, "fetch": "html", "url": "https://platform.openai.com/docs/changelog", "enabled": true, "notes": "Phase-2 HTML parser enabled with site-specific selectors" },
+  { "id": "openai-codex-changelog", "name": "OpenAI Codex Changelog", "category": "ai-engineering", "cadence": "daily", "weight": 0.96, "fetch": "html", "url": "https://developers.openai.com/topics/codex/", "enabled": true, "notes": "Phase-2 HTML parser enabled; selector may require maintenance" }
+]
